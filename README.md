@@ -17,17 +17,16 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 
 ## 🏗️ Architecture Overview
 
-``text
 Raw Operational Data (CSV / MIS / Scans)
-↓
+⬇️
 ETL Layer (Cleaning & KPI Calculation)
-↓
+⬇️
 Feature Engineering
-↓
+⬇️
 ML Model (UPH Forecast)
-↓
+⬇️
 Staffing Optimizer (LP)
-↓
+⬇️
 Streamlit Dashboard
 
 ## 📂 Repository Structure
