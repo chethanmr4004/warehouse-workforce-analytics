@@ -14,9 +14,10 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 - Enable **data-driven operational decisions**
 
 ---
+
 ## 🏗️ Architecture Overview
-'''
-Raw Operational Data (CSV / MIS / Scans)
+
+##Raw Operational Data (CSV / MIS / Scans)
 ↓
 ETL Layer (Cleaning & KPI Calculation)
 ↓
@@ -26,8 +27,8 @@ ML Model (UPH Forecast)
 ↓
 Staffing Optimizer (LP)
 ↓
-Streamlit Dashboard
-
+Streamlit Dashboard##
+---
 ## 📁 Repository Structure
 
 project_1/
