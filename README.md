@@ -15,7 +15,7 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 
 ---
 ## 🏗️ Architecture Overview
-
+├──
 Raw Operational Data (CSV / MIS / Scans)
            ↓
 ETL Layer (Cleaning & KPI Calculation)
@@ -29,7 +29,7 @@ ETL Layer (Cleaning & KPI Calculation)
       Streamlit Dashboard
       
 ## 📁 Repository Structure
-` ` `
+├──
 project_1/
 ├── app/
 │   └── streamlit_app.py        # Dashboard UI
