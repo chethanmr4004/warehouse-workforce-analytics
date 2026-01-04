@@ -14,23 +14,21 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 - Enable **data-driven operational decisions**
 
 ---
+## 🏗️ Architecture Overview
 
-🏗️ Architecture Overview
-
-Data Flow Pipeline
-Raw Operational Data
-CSV / MIS / Scans
-ETL Layer
-Cleaning & KPI Calculation
-Feature Engineering
-ML Model
-UPH Forecasting
-Staffing Optimizer
-Linear Programming (LP)
-Streamlit Dashboard
-Visualization & Insights
-
-📁 Repository Structure
+Raw Operational Data (CSV / MIS / Scans)
+           ↓
+ETL Layer (Cleaning & KPI Calculation)
+           ↓
+      Feature Engineering
+           ↓
+    ML Model (UPH Forecast)
+           ↓
+    Staffing Optimizer (LP)
+           ↓
+      Streamlit Dashboard
+      
+## 📁 Repository Structure
 project_1/
 ├── app/
 │   └── streamlit_app.py        # Dashboard UI
