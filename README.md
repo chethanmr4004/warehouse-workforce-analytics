@@ -109,44 +109,53 @@ Defines shift and skill information.
 
 ## ▶️ How to Run the Project (macOS / VS Code)
 
-### 1️⃣ Activate virtual environment
-```bash
+1️⃣ Activate virtual environment
 source .venv/bin/activate
+
 2️⃣ Install dependencies
 python3 -m pip install -r requirements.txt
+
 3️⃣ (Optional) Generate sample data
 python3 src/simulate.py
+
 4️⃣ Run Streamlit dashboard
 python3 -m streamlit run app/streamlit_app.py
 Open in browser:
 http://localhost:8501
-🧠 AI & Optimization Components
+
+## 🧠 AI & Optimization Components
+
 🔹 Productivity Prediction
 Model: Random Forest
 Predicts next-hour UPH
 Uses lag, rolling average, and time-based features
+
 🔹 Workforce Optimization
 Technique: Linear Programming (PuLP)
 Objective: Minimize staff while meeting hourly UPH targets
-📈 Dashboard Features
+
+## 📈 Dashboard Features
 KPI summary cards
 Hourly UPH trends
 Shift-wise performance comparison
 Employee productivity leaderboard
 Staffing recommendation chart
 Anomaly detection (UPH drops/spikes)
-💼 Business Impact
+
+## 💼 Business Impact
 12–18% UPH improvement
 5–15% labor cost optimization
 Reduced SLA breach risk
 Automated MIS reporting
 Scalable to multi-site operations
-🚀 Future Enhancements
+
+## 🚀 Future Enhancements
 Real-time data ingestion
 Multi-day demand forecasting
 Skill-based staffing constraints
 Cloud deployment (AWS / Streamlit Cloud)
-👤 Author
+
+## 👤 Author
 Chethan MR
 Warehouse Analytics | AI | Operations Excellence
 📜 License
