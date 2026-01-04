@@ -158,5 +158,6 @@ Cloud deployment (AWS / Streamlit Cloud)
 ## 👤 Author
 Chethan MR
 Warehouse Analytics | AI | Operations Excellence
-📜 License
+
+## 📜 License
 For internal learning and demonstration purposes.
