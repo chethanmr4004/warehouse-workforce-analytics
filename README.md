@@ -15,42 +15,39 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 
 ---
 
-## 🏗️ Architecture Overview
+🏗️ Architecture Overview
 
-Raw Operational Data (CSV / MIS / Scans)
-⬇️
-ETL Layer (Cleaning & KPI Calculation)
-⬇️
+Data Flow Pipeline
+Raw Operational Data
+CSV / MIS / Scans
+ETL Layer
+Cleaning & KPI Calculation
 Feature Engineering
-⬇️
-ML Model (UPH Forecast)
-⬇️
-Staffing Optimizer (LP)
-⬇️
+ML Model
+UPH Forecasting
+Staffing Optimizer
+Linear Programming (LP)
 Streamlit Dashboard
+Visualization & Insights
 
-## 📂 Repository Structure
-
+📁 Repository Structure
 project_1/
-│
 ├── app/
-│ └── streamlit_app.py # Dashboard UI
+│   └── streamlit_app.py        # Dashboard UI
 │
 ├── src/
-│ ├── etl.py # Data loading & KPI calculations
-│ ├── features.py # Feature engineering
-│ ├── staff_optimizer.py # Workforce optimization (LP)
-│ ├── train_model.py # ML model training
-│ └── simulate.py # Sample data generator
+│   ├── etl.py                  # Data loading & KPI calculations
+│   ├── features.py             # Feature engineering
+│   ├── staff_optimizer.py      # Workforce optimization (LP)
+│   ├── train_model.py          # ML model training
+│   └── simulate.py             # Sample data generator
 │
 ├── data/
-│ ├── sample_events.csv # Example operational data
-│ └── sample_roster.csv # Example workforce roster
+│   ├── sample_events.csv       # Example operational data
+│   └── sample_roster.csv       # Example workforce roster
 │
 ├── requirements.txt
 └── README.md
-
----
 
 ## 📊 Key KPIs Implemented
 
