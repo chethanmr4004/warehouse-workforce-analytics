@@ -19,8 +19,7 @@ This project automates KPI computation, predicts productivity, optimizes staffin
 
 Raw Operational Data (CSV / MIS / Scans)
 ↓
-ETL Layer
-(Cleaning & KPI Calculation)
+ETL Layer (Cleaning & KPI Calculation)
 ↓
 Feature Engineering
 ↓
